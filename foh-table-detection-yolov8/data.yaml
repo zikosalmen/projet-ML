@@ -1,0 +1,14 @@
+names:
+- clean
+- dirty
+- occupied
+nc: 3
+roboflow:
+  license: MIT
+  project: foh-table-detection-raega
+  url: https://app.roboflow.com/tata-tata-rczza/foh-table-detection-raega/1
+  version: 1
+  workspace: tata-tata-rczza
+test: test/images
+train: train/images
+val: valid/images
