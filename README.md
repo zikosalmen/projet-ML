@@ -15,6 +15,8 @@ Projet de Machine Learning et Computer Vision dédié à la détection, au suivi
 
 - **`dataset_tables_ensemble/`** : Collection initiale de tables de restauration avec métadonnées enrichies (`dataset_metadata.csv`).
 
+- **`dataset_tables_interieurs_400/`** : Collection de 400 photos vérifiées d’intérieurs de restaurants, cafés et bars avec tables visibles; licences, auteurs et sources par image dans `dataset_metadata.csv`. Voir son `README.md` avant toute redistribution.
+
 - **`foh-table-detection-yolov8/`** : Pipeline et jeu de données de détection d'objets (YOLOv8) annoté pour la détection de tables :
   - `train/`, `valid/`, `test/` : Splits d'entraînement au format YOLO avec annotations de boîtes englobantes (`clean`, `dirty`, `occupied`).
   - `collection_photos_cafes_restaurants/` : Images sources issues d'Open Images V7, Wikimedia Commons et Unsplash avec `sources.csv`.
